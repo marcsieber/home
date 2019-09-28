@@ -1,0 +1,51 @@
+html {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+    --left-indent : 10rem;
+    --title-height: 4rem;
+
+    font-family: "Roboto", "sans-serif";
+    background-color: rgba(255, 241, 222, 0.3);
+
+}
+
+h1 {
+    font-size: var(--title-height);
+    padding-top: calc(var(--left-indent) - var(--title-height));
+    padding-left: var(--left-indent);
+}
+#course_info {
+    justify-content: center;
+    padding-left: var(--left-indent);
+}
+
+#course_info td, th {
+    font-size: 1rem;
+    text-align: left;
+    background: aquamarine;
+    padding: 0.7em;
+}
+
+#course_info td:first-child, th:first-child {
+    border-left: solid 3px;
+    border-left-color: white;
+}
+
+#course_info th {
+    font-weight: bold;
+}
+
+#course_info .exercise td {
+    background-color: aqua;
+}
+
+#course_info .exercise td:first-child {
+    border-left-color: red;
+}
+
+#course_info .holidays td {
+    background-color: mediumaquamarine;
+    border-left-color: lightgray;
+}
