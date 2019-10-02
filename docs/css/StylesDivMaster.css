@@ -1,0 +1,76 @@
+html {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+    --left-indent : 10rem;
+    --title-height: 4rem;
+}
+
+.header {
+    display: flex;
+    justify-content: left;
+    height: 15vh;
+    width: 100vw;
+}
+
+.main {
+    display: flex;
+    justify-content: left;
+    height: 60vh;
+    width: 100vw;
+}
+
+
+.footer {
+    display: flex;
+    justify-content: left;
+    height: 25vh;
+    width: 100vw;
+}
+
+#header1, #header2, #header3, #header4 {
+    width: 25%;
+    background-color: blue;;
+}
+
+#header1 {
+    background-color: lightgreen;;
+}
+
+#header2 {
+    background-color: greenyellow;
+}
+
+ #header3 {
+    background-color: lawngreen;;
+}
+
+#header4 {
+    background-color: limegreen;;
+}
+
+#main1 {
+    background-color: gold;
+    width: 61.8%;
+}
+
+#main2 {
+    background-color: goldenrod;
+    width: 38.2%;
+}
+
+#footer1 {
+    background-color: dodgerblue;
+    width: 25%;
+}
+
+#footer2 {
+    background-color: deepskyblue;
+    width: 50%;
+}
+
+#footer3 {
+     background-color: blueviolet;
+     width: 25%;
+ }
